@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -26,7 +27,7 @@ public class LibraryControllerTest {
                 + "Return(3):\r\n"
                 + "Quit(4):\r\n"
                 + "Please input your choose:\r\n";
-        libraryController.beginWelcome();
+        libraryController.welcome();
         assertThat(outContent.toString(), is(expect));
     }
 }
