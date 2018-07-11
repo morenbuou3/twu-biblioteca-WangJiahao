@@ -20,7 +20,7 @@ public class LibraryViewTest {
 
     @Test
     public void firstGetInTheSystemWillWelcome() {
-        String expect = "Welcome to Biblioteca Library!\r\n";
+        String expect = "Welcome to Biblioteca BookManager!\r\n";
         libraryView.showWelcome();
         assertThat(outContent.toString(), is(expect));
     }
@@ -101,16 +101,14 @@ public class LibraryViewTest {
 
     @Test
     public void printCheckoutTip() {
-        String expect = "Please input book name:\r\n"
-                + "Or input 'back' to the main menu:\r\n";
+        String expect = "Please input book name:\r\n";
         libraryView.showCheckoutAndReturnTip();
         assertThat(outContent.toString(), is(expect));
     }
 
     @Test
     public void printReturnTip() {
-        String expect = "Please input book name:\r\n"
-                + "Or input 'back' to the main menu:\r\n";
+        String expect = "Please input book name:\r\n";
         libraryView.showCheckoutAndReturnTip();
         assertThat(outContent.toString(), is(expect));
     }

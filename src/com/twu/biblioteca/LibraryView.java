@@ -15,7 +15,7 @@ public class LibraryView {
     }
 
     public void showWelcome() {
-        System.out.println("Welcome to Biblioteca Library!");
+        System.out.println("Welcome to Biblioteca BookManager!");
     }
 
     public void showMenu() {

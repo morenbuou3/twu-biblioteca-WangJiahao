@@ -9,10 +9,10 @@ import java.io.PrintStream;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class LibraryTest {
+public class BookManagerTest {
     private ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private LibraryView libraryView = new LibraryView();
-    private Library library = new Library();
+    private BookManager bookManager = new BookManager();
 
     @Before
     public void setUp() throws Exception {
@@ -23,7 +23,7 @@ public class LibraryTest {
     public void checkoutBookInValid() {
         String expect = "That book is not available.\r\n";
         String name = "Java1";
-        library.checkout(name);
+        bookManager.checkout(name);
         assertThat(outContent.toString(), is(expect));
     }
 
@@ -31,7 +31,7 @@ public class LibraryTest {
     public void checkoutBookValid() {
         String expect = "Thank you! Enjoy the book.\r\n";
         String name = "Java";
-        library.checkout(name);
+        bookManager.checkout(name);
         assertThat(outContent.toString(), is(expect));
     }
 
@@ -39,7 +39,7 @@ public class LibraryTest {
     public void returnBookInValid() {
         String expect = "That is not a valid book to return.\r\n";
         String name = "Java1";
-        library.returnBook(name);
+        bookManager.returnBook(name);
         assertThat(outContent.toString(), is(expect));
     }
 
@@ -47,7 +47,7 @@ public class LibraryTest {
     public void returnBookValid() {
         String expect = "Thank you for returning the book.\r\n";
         String name = "Java";
-        library.returnBook(name);
+        bookManager.returnBook(name);
         assertThat(outContent.toString(), is(expect));
     }
 }

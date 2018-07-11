@@ -5,7 +5,7 @@ import com.twu.biblioteca.entity.Book;
 
 import java.util.List;
 
-public class Library {
+public class BookManager {
     private LibraryView libraryView = new LibraryView();
 
     public void checkout(String name) {

@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class LibraryController {
     private LibraryView libraryView = new LibraryView();
-    private Library library = new Library();
+    private BookManager library = new BookManager();
     private BufferedReader bufferedReader;
 
     {

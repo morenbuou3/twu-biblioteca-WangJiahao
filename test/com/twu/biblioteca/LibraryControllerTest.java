@@ -21,7 +21,7 @@ public class LibraryControllerTest {
 
     @Test
     public void beginWelcome() {
-        String expect = "Welcome to Biblioteca Library!\r\n"
+        String expect = "Welcome to Biblioteca BookManager!\r\n"
                 + "List Books(1):\r\n"
                 + "Checkout(2):\r\n"
                 + "Return(3):\r\n"
