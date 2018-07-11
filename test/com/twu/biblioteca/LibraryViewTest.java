@@ -45,28 +45,28 @@ public class LibraryViewTest {
     @Test
     public void printSuccessfulCheckout() {
         String expect = "Thank you! Enjoy the book.\r\n";
-        libraryView.showSuccessfulCheckout();
+        libraryView.showSuccessfulCheckout("book");
         assertThat(outContent.toString(), is(expect));
     }
 
     @Test
     public void printUnsuccessfulCheckout() {
         String expect = "That book is not available.\r\n";
-        libraryView.showUnsuccessfulCheckout();
+        libraryView.showUnsuccessfulCheckout("book");
         assertThat(outContent.toString(), is(expect));
     }
 
     @Test
     public void printSuccessfulReturn() {
         String expect = "Thank you for returning the book.\r\n";
-        libraryView.showSuccessfulReturn();
+        libraryView.showSuccessfulReturn("book");
         assertThat(outContent.toString(), is(expect));
     }
 
     @Test
     public void printUnsuccessfulReturn() {
         String expect = "That is not a valid book to return.\r\n";
-        libraryView.showUnsuccessfulReturn();
+        libraryView.showUnsuccessfulReturn("book");
         assertThat(outContent.toString(), is(expect));
     }
 

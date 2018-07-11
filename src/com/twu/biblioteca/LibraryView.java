@@ -29,20 +29,20 @@ public class LibraryView {
         System.out.println("Select a valid option!");
     }
 
-    public void showSuccessfulCheckout() {
-        System.out.println("Thank you! Enjoy the book.");
+    public void showSuccessfulCheckout(String type) {
+        System.out.println("Thank you! Enjoy the " + type + ".");
     }
 
-    public void showUnsuccessfulCheckout() {
-        System.out.println("That book is not available.");
+    public void showUnsuccessfulCheckout(String type) {
+        System.out.println("That " + type + " is not available.");
     }
 
-    public void showSuccessfulReturn() {
-        System.out.println("Thank you for returning the book.");
+    public void showSuccessfulReturn(String type) {
+        System.out.println("Thank you for returning the " + type + ".");
     }
 
-    public void showUnsuccessfulReturn() {
-        System.out.println("That is not a valid book to return.");
+    public void showUnsuccessfulReturn(String type) {
+        System.out.println("That is not a valid " + type + " to return.");
     }
 
     public void showBookList() {

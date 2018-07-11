@@ -13,11 +13,11 @@ public class BookManager {
         for (Book book : books) {
             if (book.getName().equals(name) && book.getNumber() > 0) {
                 book.setNumber(book.getNumber() - 1);
-                libraryView.showSuccessfulCheckout();
+                libraryView.showSuccessfulCheckout("book");
                 return;
             }
         }
-        libraryView.showUnsuccessfulCheckout();
+        libraryView.showUnsuccessfulCheckout("book");
     }
 
     public void returnBook(String name) {
@@ -25,10 +25,10 @@ public class BookManager {
         for (Book book : books) {
             if (book.getName().equals(name)) {
                 book.setNumber(book.getNumber() + 1);
-                libraryView.showSuccessfulReturn();
+                libraryView.showSuccessfulReturn("book");
                 return;
             }
         }
-        libraryView.showUnsuccessfulReturn();
+        libraryView.showUnsuccessfulReturn("book");
     }
 }
