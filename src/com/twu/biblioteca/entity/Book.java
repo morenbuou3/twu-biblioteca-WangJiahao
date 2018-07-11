@@ -1,14 +1,12 @@
 package com.twu.biblioteca.entity;
 
-import java.util.Date;
-
 public class Book {
     private String name;
     private String author;
-    private Date published;
+    private String published;
     private Integer number;
 
-    public Book(String name, String author, Date published, Integer number) {
+    public Book(String name, String author, String published, Integer number) {
         this.name = name;
         this.author = author;
         this.published = published;
@@ -23,11 +21,11 @@ public class Book {
         this.author = author;
     }
 
-    public Date getPublished() {
+    public String getPublished() {
         return published;
     }
 
-    public void setPublished(Date published) {
+    public void setPublished(String published) {
         this.published = published;
     }
 
