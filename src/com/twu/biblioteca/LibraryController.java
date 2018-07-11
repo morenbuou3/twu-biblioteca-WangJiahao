@@ -8,10 +8,19 @@ public class LibraryController {
     private LibraryView libraryView = new LibraryView();
     private BookManager bookManager = new BookManager();
     private MovieManager movieManager = new MovieManager();
+    private UserLogin userLogin = new UserLogin();
     private BufferedReader bufferedReader;
 
     {
         bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    }
+
+    public void login() throws IOException {
+        System.out.println("Please input your libraryNumber:");
+        String libraryNumber = bufferedReader.readLine();
+        System.out.println("Please input your password:");
+        String password = bufferedReader.readLine();
+        userLogin.login(libraryNumber, password);
     }
 
     public void welcome() {
