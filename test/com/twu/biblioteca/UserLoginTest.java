@@ -57,4 +57,26 @@ public class UserLoginTest {
         userLogin.login("111-0000", "123");
         assertThat(user, is(Session.getUser()));
     }
+
+    @Test
+    public void printUserInformationValid() {
+        String expect = "Login Succeed!\r\n" +
+                "User Information:\r\n" +
+                "name|email|phone\r\n" +
+                "========================\r\n" +
+                "wjh|123@qq.com|13311111111\r\n" +
+                "========================\r\n";
+        User user = new User("111-0000", "123", "wjh", "123@qq.com", "13311111111");
+        userLogin.login("111-0000", "123");
+        userLogin.showUserInformation();
+        assertThat(outContent.toString(), is(expect));
+    }
+
+    @Test
+    public void printUserInformationInvalid() {
+        Session.setUser(null);
+        String expect = "Please login!\r\n";
+        userLogin.showUserInformation();
+        assertThat(outContent.toString(), is(expect));
+    }
 }

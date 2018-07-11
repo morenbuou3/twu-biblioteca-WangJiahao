@@ -28,7 +28,17 @@ public class UserLogin {
     }
 
     public void showUserInformation() {
+        if (!checkLogin()) return;
 
+        User user = Session.getUser();
+        System.out.println("User Information:");
+        System.out.println("name|email|phone");
+        System.out.println("========================");
+        System.out.println(String.format("%1$s|%2$s|%3$s",
+                user.getName(),
+                user.getEmailAddress(),
+                user.getPhoneNumber()));
+        System.out.println("========================");
     }
 
     private void showLoginSuccessful() {
