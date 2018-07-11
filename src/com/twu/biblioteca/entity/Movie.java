@@ -5,14 +5,16 @@ public class Movie {
     private String year;
     private String director;
     private String movieRate;
+    private Integer movieNumber;
 
     private User user = null;
 
-    public Movie(String name, String year, String director, String movieRate) {
+    public Movie(String name, String year, String director, String movieRate, Integer movieNumber) {
         this.name = name;
         this.year = year;
         this.director = director;
         this.movieRate = movieRate;
+        this.movieNumber = movieNumber;
     }
 
     public String getName() {
@@ -53,5 +55,13 @@ public class Movie {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public Integer getMovieNumber() {
+        return movieNumber;
+    }
+
+    public void setMovieNumber(Integer movieNumber) {
+        this.movieNumber = movieNumber;
     }
 }
