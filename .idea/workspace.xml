@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f9cbce-50f5-4c49-a886-031f5a6de2f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LibraryViewTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/LibraryViewTest.java">
+      <file leaf-file-name="LibraryControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/LibraryControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+            <state relative-caret-position="627">
+              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,27 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryView.java">
+      <file leaf-file-name="LibraryController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -74,6 +57,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/data/BookLists.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryViewTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryView.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryController.java" />
       </list>
     </option>
   </component>
@@ -164,9 +149,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryViewTest">
+  <component name="RunManager" selected="JUnit.LibraryControllerTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LibraryControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LibraryControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LibraryControllerTest.beginWelcome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LibraryControllerTest" />
+      <option name="METHOD_NAME" value="beginWelcome" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="LibraryViewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
@@ -191,7 +222,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LibraryViewTest.printBookList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryViewTest.printCheckoutTip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -203,7 +234,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LibraryViewTest" />
-      <option name="METHOD_NAME" value="printBookList" />
+      <option name="METHOD_NAME" value="printCheckoutTip" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -214,7 +245,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LibraryViewTest.printGoodBye" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryViewTest.printReturnTip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -226,53 +257,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LibraryViewTest" />
-      <option name="METHOD_NAME" value="printGoodBye" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LibraryViewTest.printMainMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LibraryViewTest" />
-      <option name="METHOD_NAME" value="printMainMenu" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LibraryViewTest.printSuccessfulCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LibraryViewTest" />
-      <option name="METHOD_NAME" value="printSuccessfulCheckout" />
+      <option name="METHOD_NAME" value="printReturnTip" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -322,19 +307,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LibraryViewTest.printMainMenu" />
       <item itemvalue="JUnit.LibraryViewTest" />
-      <item itemvalue="JUnit.LibraryViewTest.printSuccessfulCheckout" />
-      <item itemvalue="JUnit.LibraryViewTest.printBookList" />
-      <item itemvalue="JUnit.LibraryViewTest.printGoodBye" />
+      <item itemvalue="JUnit.LibraryViewTest.printCheckoutTip" />
+      <item itemvalue="JUnit.LibraryControllerTest.beginWelcome" />
+      <item itemvalue="JUnit.LibraryViewTest.printReturnTip" />
+      <item itemvalue="JUnit.LibraryControllerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryControllerTest" />
         <item itemvalue="JUnit.LibraryViewTest" />
-        <item itemvalue="JUnit.LibraryViewTest.printGoodBye" />
-        <item itemvalue="JUnit.LibraryViewTest.printBookList" />
-        <item itemvalue="JUnit.LibraryViewTest.printSuccessfulCheckout" />
-        <item itemvalue="JUnit.LibraryViewTest.printMainMenu" />
+        <item itemvalue="JUnit.LibraryViewTest.printReturnTip" />
+        <item itemvalue="JUnit.LibraryViewTest.printCheckoutTip" />
+        <item itemvalue="JUnit.LibraryControllerTest.beginWelcome" />
       </list>
     </recent_temporary>
   </component>
@@ -352,34 +337,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryViewTest_printSuccessfulCheckout - 2018.07.11 at 13h 37m 20s.xml">
-      <configuration name="LibraryViewTest.printSuccessfulCheckout" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printGoodBye - 2018.07.11 at 14h 30m 57s.xml">
+      <configuration name="LibraryViewTest.printGoodBye" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 37m 32s.xml">
+    <history-entry file="LibraryViewTest - 2018.07.11 at 14h 31m 01s.xml">
       <configuration name="LibraryViewTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 38m 36s.xml">
-      <configuration name="LibraryViewTest" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printChooseTip - 2018.07.11 at 14h 45m 44s.xml">
+      <configuration name="LibraryViewTest.printChooseTip" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 39m 57s.xml">
-      <configuration name="LibraryViewTest" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printCheckoutTip - 2018.07.11 at 14h 48m 28s.xml">
+      <configuration name="LibraryViewTest.printCheckoutTip" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 41m 03s.xml">
-      <configuration name="LibraryViewTest" configurationId="JUnit" />
+    <history-entry file="LibraryControllerTest_beginWelcome - 2018.07.11 at 14h 48m 51s.xml">
+      <configuration name="LibraryControllerTest.beginWelcome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest_printBookList - 2018.07.11 at 14h 22m 28s.xml">
-      <configuration name="LibraryViewTest.printBookList" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printCheckoutTip - 2018.07.11 at 14h 49m 03s.xml">
+      <configuration name="LibraryViewTest.printCheckoutTip" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest_printBookList - 2018.07.11 at 14h 23m 44s.xml">
-      <configuration name="LibraryViewTest.printBookList" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printReturnTip - 2018.07.11 at 14h 50m 30s.xml">
+      <configuration name="LibraryViewTest.printReturnTip" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest_printBookList - 2018.07.11 at 14h 26m 19s.xml">
-      <configuration name="LibraryViewTest.printBookList" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printReturnTip - 2018.07.11 at 14h 50m 38s.xml">
+      <configuration name="LibraryViewTest.printReturnTip" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest_printBookList - 2018.07.11 at 14h 26m 49s.xml">
-      <configuration name="LibraryViewTest.printBookList" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printReturnTip - 2018.07.11 at 14h 50m 55s.xml">
+      <configuration name="LibraryViewTest.printReturnTip" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest - 2018.07.11 at 14h 26m 54s.xml">
+    <history-entry file="LibraryViewTest - 2018.07.11 at 14h 50m 59s.xml">
       <configuration name="LibraryViewTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -420,7 +405,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -452,7 +437,10 @@
             <element signature="e#995#996#0" expanded="true" />
             <element signature="e#1039#1040#0" expanded="true" />
             <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
             <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -604,20 +592,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/LibraryViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
@@ -632,7 +610,37 @@
             <element signature="e#995#996#0" expanded="true" />
             <element signature="e#1039#1040#0" expanded="true" />
             <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
             <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/LibraryViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="113" column="39" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/LibraryControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
