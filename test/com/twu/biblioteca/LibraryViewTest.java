@@ -34,4 +34,39 @@ public class LibraryViewTest {
         libraryView.showMenu();
         assertThat(outContent.toString(), is(expect));
     }
+
+    @Test
+    public void printInvalidOption() {
+        String expect = "Select a valid option!\r\n";
+        libraryView.showInvalidOption();
+        assertThat(outContent.toString(), is(expect));
+    }
+
+    @Test
+    public void printSuccessfulCheckout() {
+        String expect = "Thank you! Enjoy the book.\r\n";
+        libraryView.showSuccessfulCheckout();
+        assertThat(outContent.toString(), is(expect));
+    }
+
+    @Test
+    public void printUnsuccessfulCheckout() {
+        String expect = "That book is not available.\r\n";
+        libraryView.showUnsuccessfulCheckout();
+        assertThat(outContent.toString(), is(expect));
+    }
+
+    @Test
+    public void printSuccessfulReturn() {
+        String expect = "Thank you for returning the book.\r\n";
+        libraryView.showSuccessfulReturn();
+        assertThat(outContent.toString(), is(expect));
+    }
+
+    @Test
+    public void printUnsuccessfulReturn() {
+        String expect = "That is not a valid book to return.\r\n";
+        libraryView.showUnsuccessfulReturn();
+        assertThat(outContent.toString(), is(expect));
+    }
 }

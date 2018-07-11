@@ -18,8 +18,8 @@
       <file leaf-file-name="LibraryViewTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/LibraryViewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="276">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,12 +30,18 @@
       <file leaf-file-name="LibraryView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="324">
+              <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryViewTest.printMainMenu">
+  <component name="RunManager" selected="JUnit.LibraryViewTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -230,6 +236,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="LibraryViewTest.printSuccessfulCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LibraryViewTest" />
+      <option name="METHOD_NAME" value="printSuccessfulCheckout" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -273,11 +302,13 @@
       <item itemvalue="JUnit.LibraryViewTest.firstGetInTheSystemWillWelcome" />
       <item itemvalue="JUnit.LibraryViewTest.printMainMenu" />
       <item itemvalue="JUnit.LibraryViewTest" />
+      <item itemvalue="JUnit.LibraryViewTest.printSuccessfulCheckout" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryViewTest.printMainMenu" />
         <item itemvalue="JUnit.LibraryViewTest" />
+        <item itemvalue="JUnit.LibraryViewTest.printSuccessfulCheckout" />
+        <item itemvalue="JUnit.LibraryViewTest.printMainMenu" />
         <item itemvalue="JUnit.LibraryViewTest.firstGetInTheSystemWillWelcome" />
         <item itemvalue="JUnit.LibraryViewTest.FirstGetInTheSystemWillWelcome" />
       </list>
@@ -297,17 +328,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryViewTest_FirstGetInTheSystemWillWelcome - 2018.07.11 at 12h 53m 50s.xml">
-      <configuration name="LibraryViewTest.FirstGetInTheSystemWillWelcome" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printMainMenu - 2018.07.11 at 13h 30m 33s.xml">
+      <configuration name="LibraryViewTest.printMainMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest_FirstGetInTheSystemWillWelcome - 2018.07.11 at 12h 56m 15s.xml">
-      <configuration name="LibraryViewTest.FirstGetInTheSystemWillWelcome" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 30m 36s.xml">
+      <configuration name="LibraryViewTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest_FirstGetInTheSystemWillWelcome - 2018.07.11 at 13h 25m 01s.xml">
-      <configuration name="LibraryViewTest.FirstGetInTheSystemWillWelcome" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest_printMainMenu - 2018.07.11 at 13h 30m 41s.xml">
+      <configuration name="LibraryViewTest.printMainMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryViewTest_firstGetInTheSystemWillWelcome - 2018.07.11 at 13h 25m 22s.xml">
-      <configuration name="LibraryViewTest.firstGetInTheSystemWillWelcome" configurationId="JUnit" />
+    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 30m 47s.xml">
+      <configuration name="LibraryViewTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 30m 53s.xml">
+      <configuration name="LibraryViewTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryViewTest_printMainMenu - 2018.07.11 at 13h 30m 56s.xml">
+      <configuration name="LibraryViewTest.printMainMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryViewTest_printMainMenu - 2018.07.11 at 13h 31m 03s.xml">
+      <configuration name="LibraryViewTest.printMainMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 35m 15s.xml">
+      <configuration name="LibraryViewTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryViewTest_printSuccessfulCheckout - 2018.07.11 at 13h 37m 20s.xml">
+      <configuration name="LibraryViewTest.printSuccessfulCheckout" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryViewTest - 2018.07.11 at 13h 37m 32s.xml">
+      <configuration name="LibraryViewTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -322,7 +371,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32952926" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281027" />
       <window_info id="Capture Tool" order="2" />
@@ -442,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/LibraryViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="276">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -452,12 +501,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="324">
+          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
           </folding>
         </state>
       </provider>
