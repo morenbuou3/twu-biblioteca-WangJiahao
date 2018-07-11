@@ -1,5 +1,8 @@
 package com.twu.biblioteca.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Movie {
     private String name;
     private String year;
@@ -7,7 +10,7 @@ public class Movie {
     private String movieRate;
     private Integer movieNumber;
 
-    private User user = null;
+    private List<User> user;
 
     public Movie(String name, String year, String director, String movieRate, Integer movieNumber) {
         this.name = name;
@@ -15,6 +18,7 @@ public class Movie {
         this.director = director;
         this.movieRate = movieRate;
         this.movieNumber = movieNumber;
+        this.user = new ArrayList<>();
     }
 
     public String getName() {
@@ -49,19 +53,15 @@ public class Movie {
         this.movieRate = movieRate;
     }
 
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
     public Integer getMovieNumber() {
         return movieNumber;
     }
 
     public void setMovieNumber(Integer movieNumber) {
         this.movieNumber = movieNumber;
+    }
+
+    public List<User> getUser() {
+        return user;
     }
 }

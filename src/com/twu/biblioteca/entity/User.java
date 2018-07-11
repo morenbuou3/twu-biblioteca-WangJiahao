@@ -1,5 +1,8 @@
 package com.twu.biblioteca.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class User {
     private String libraryNumber;
     private String password;
@@ -7,12 +10,15 @@ public class User {
     private String emailAddress;
     private String phoneNumber;
 
+    private List<User> users;
+
     public User(String libraryNumber, String password, String name, String emailAddress, String phoneNumber) {
         this.libraryNumber = libraryNumber;
         this.password = password;
         this.name = name;
         this.emailAddress = emailAddress;
         this.phoneNumber = phoneNumber;
+        this.users = new ArrayList<>();
     }
 
     public String getLibraryNumber() {
@@ -53,6 +59,10 @@ public class User {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
+    }
+
+    public List<User> getUsers() {
+        return users;
     }
 
     @Override
