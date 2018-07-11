@@ -11,6 +11,7 @@ import static org.junit.Assert.assertThat;
 
 public class LibraryViewTest {
     private ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    private LibraryView libraryView = new LibraryView();
 
     @Before
     public void setUp() throws Exception {
@@ -18,10 +19,19 @@ public class LibraryViewTest {
     }
 
     @Test
-    public void FirstGetInTheSystemWillWelcome() {
+    public void firstGetInTheSystemWillWelcome() {
         String expect = "Welcome to Biblioteca Library!\r\n";
-        LibraryView libraryView = new LibraryView();
         libraryView.showWelcome();
+        assertThat(outContent.toString(), is(expect));
+    }
+
+    @Test
+    public void printMainMenu() {
+        String expect = "List Books(1):\r\n"
+                        + "Checkout(2):\r\n"
+                        + "Return(3):\r\n"
+                        + "Quit(4):\r\n";
+        libraryView.showMenu();
         assertThat(outContent.toString(), is(expect));
     }
 }

@@ -13,4 +13,11 @@ public class LibraryView {
     public void showWelcome() {
         System.out.println("Welcome to Biblioteca Library!");
     }
+
+    public void showMenu() {
+        System.out.println("List Books(1):");
+        System.out.println("Checkout(2):");
+        System.out.println("Return(3):");
+        System.out.println("Quit(4):");
+    }
 }
