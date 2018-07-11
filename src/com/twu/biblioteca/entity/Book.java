@@ -1,10 +1,14 @@
 package com.twu.biblioteca.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Book {
     private String name;
     private String author;
     private String published;
     private Integer number;
+    private List<User> user = new ArrayList<User>();
 
     public Book(String name, String author, String published, Integer number) {
         this.name = name;
@@ -43,5 +47,9 @@ public class Book {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<User> getUser() {
+        return user;
     }
 }
