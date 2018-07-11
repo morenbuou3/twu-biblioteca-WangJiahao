@@ -1,7 +1,11 @@
 package com.twu.biblioteca;
 
+import com.twu.biblioteca.data.BookLists;
+import com.twu.biblioteca.entity.Book;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.List;
 
 public class LibraryView {
     private BufferedReader bufferedReader;
@@ -39,5 +43,19 @@ public class LibraryView {
 
     public void showUnsuccessfulReturn() {
         System.out.println("That is not a valid book to return.");
+    }
+
+    public void showBookList() {
+        List<Book> books = BookLists.getBookList();
+        System.out.println("Book List:");
+        System.out.println("Book Name|Author|Year Published");
+        System.out.println("========================");
+        books.stream().forEach(n -> {
+            System.out.println(String.format("%1$s|%2$s|%3$s",
+                    n.getName(),
+                    n.getAuthor(),
+                    n.getPublished()));
+        });
+        System.out.println("========================");
     }
 }

@@ -69,4 +69,19 @@ public class LibraryViewTest {
         libraryView.showUnsuccessfulReturn();
         assertThat(outContent.toString(), is(expect));
     }
+
+    @Test
+    public void printBookList() {
+        String expect = "Book List:\r\n" +
+                "Book Name|Author|Year Published\r\n" +
+                "========================\r\n" +
+                "Java|wjh|2018\r\n" +
+                "C++|wyx|2017\r\n" +
+                "Python|lf|2016\r\n" +
+                "C|wjt|2015\r\n" +
+                "Javascript|wft|2014\r\n" +
+                "========================\r\n";
+        libraryView.showBookList();
+        assertThat(outContent.toString(), is(expect));
+    }
 }
