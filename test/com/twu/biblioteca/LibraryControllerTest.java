@@ -23,9 +23,12 @@ public class LibraryControllerTest {
     public void beginWelcome() {
         String expect = "Welcome to Biblioteca BookManager!\r\n"
                 + "List Books(1):\r\n"
-                + "Checkout(2):\r\n"
-                + "Return(3):\r\n"
-                + "Quit(4):\r\n"
+                + "List Movies(2):\r\n"
+                + "Checkout Book(3):\r\n"
+                + "Return Book(4):\r\n"
+                + "Checkout Movie(5):\r\n"
+                + "Return Movie(6):\r\n"
+                + "Quit(7):\r\n"
                 + "Please input your choose:\r\n";
         libraryController.welcome();
         assertThat(outContent.toString(), is(expect));

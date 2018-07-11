@@ -20,9 +20,12 @@ public class LibraryView {
 
     public void showMenu() {
         System.out.println("List Books(1):");
-        System.out.println("Checkout(2):");
-        System.out.println("Return(3):");
-        System.out.println("Quit(4):");
+        System.out.println("List Movies(2):");
+        System.out.println("Checkout Book(3):");
+        System.out.println("Return Book(4):");
+        System.out.println("Checkout Movie(5):");
+        System.out.println("Return Movie(6):");
+        System.out.println("Quit(7):");
     }
 
     public void showInvalidOption() {
@@ -67,8 +70,8 @@ public class LibraryView {
         System.out.println("Please input your choose:");
     }
 
-    public void showCheckoutAndReturnTip() {
-        System.out.println("Please input book name:");
+    public void showCheckoutAndReturnTip(String type) {
+        System.out.println("Please input " + type + " name:");
     }
 
     public void showLoginTip() {

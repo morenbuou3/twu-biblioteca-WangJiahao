@@ -28,9 +28,12 @@ public class LibraryViewTest {
     @Test
     public void printMainMenu() {
         String expect = "List Books(1):\r\n"
-                        + "Checkout(2):\r\n"
-                        + "Return(3):\r\n"
-                        + "Quit(4):\r\n";
+                + "List Movies(2):\r\n"
+                + "Checkout Book(3):\r\n"
+                + "Return Book(4):\r\n"
+                + "Checkout Movie(5):\r\n"
+                + "Return Movie(6):\r\n"
+                + "Quit(7):\r\n";
         libraryView.showMenu();
         assertThat(outContent.toString(), is(expect));
     }
@@ -102,14 +105,14 @@ public class LibraryViewTest {
     @Test
     public void printCheckoutTip() {
         String expect = "Please input book name:\r\n";
-        libraryView.showCheckoutAndReturnTip();
+        libraryView.showCheckoutAndReturnTip("book");
         assertThat(outContent.toString(), is(expect));
     }
 
     @Test
     public void printReturnTip() {
         String expect = "Please input book name:\r\n";
-        libraryView.showCheckoutAndReturnTip();
+        libraryView.showCheckoutAndReturnTip("book");
         assertThat(outContent.toString(), is(expect));
     }
 }

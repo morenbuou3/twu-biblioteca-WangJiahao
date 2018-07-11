@@ -6,7 +6,8 @@ import java.io.InputStreamReader;
 
 public class LibraryController {
     private LibraryView libraryView = new LibraryView();
-    private BookManager library = new BookManager();
+    private BookManager bookManager = new BookManager();
+    private MovieManager movieManager = new MovieManager();
     private BufferedReader bufferedReader;
 
     {
@@ -22,21 +23,34 @@ public class LibraryController {
 
     public void begin() throws IOException {
         String input = bufferedReader.readLine();
-        while (!"4".equals(input)) {
+        while (!"7".equals(input)) {
             String name = "";
             switch (input) {
                 case "1":
                     libraryView.showBookList();
                     break;
                 case "2":
-                    libraryView.showCheckoutAndReturnTip();
-                    name = bufferedReader.readLine();
-                    library.checkout(name);
+                    movieManager.showMovieList();
                     break;
                 case "3":
-                    libraryView.showCheckoutAndReturnTip();
+                    libraryView.showCheckoutAndReturnTip("book");
                     name = bufferedReader.readLine();
-                    library.returnBook(name);
+                    bookManager.checkout(name);
+                    break;
+                case "4":
+                    libraryView.showCheckoutAndReturnTip("book");
+                    name = bufferedReader.readLine();
+                    bookManager.returnBook(name);
+                    break;
+                case "5":
+                    libraryView.showCheckoutAndReturnTip("movie");
+                    name = bufferedReader.readLine();
+                    movieManager.checkoutMovie(name);
+                    break;
+                case "6":
+                    libraryView.showCheckoutAndReturnTip("movie");
+                    name = bufferedReader.readLine();
+                    movieManager.returnMovie(name);
                     break;
                 default:
                     libraryView.showInvalidOption();
