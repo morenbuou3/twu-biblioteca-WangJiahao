@@ -84,4 +84,11 @@ public class LibraryViewTest {
         libraryView.showBookList();
         assertThat(outContent.toString(), is(expect));
     }
+
+    @Test
+    public void printGoodBye() {
+        String expect = "Thank you for coming,welcome your next visit!\r\n";
+        libraryView.showGoodBye();
+        assertThat(outContent.toString(), is(expect));
+    }
 }

@@ -58,4 +58,8 @@ public class LibraryView {
         });
         System.out.println("========================");
     }
+
+    public void showGoodBye() {
+        System.out.println("Thank you for coming,welcome your next visit!");
+    }
 }
