@@ -69,7 +69,6 @@ public class LibraryView {
 
     public void showCheckoutAndReturnTip() {
         System.out.println("Please input book name:");
-        System.out.println("Or input 'back' to the main menu:");
     }
 
 }
