@@ -71,4 +71,7 @@ public class LibraryView {
         System.out.println("Please input book name:");
     }
 
+    public void showLoginTip() {
+        System.out.println("Please login!");
+    }
 }
