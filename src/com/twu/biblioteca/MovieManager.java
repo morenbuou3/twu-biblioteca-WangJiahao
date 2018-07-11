@@ -25,7 +25,7 @@ public class MovieManager {
     }
 
     public void checkoutMovie(String name) {
-        if (!checkLogin()) return;
+        if (!userLogin.checkLogin()) return;
         List<Movie> movies = MovieLists.getMovieList();
         for (Movie movie : movies) {
             if (movie.getName().equals(name) && movie.getMovieNumber() > 0) {
@@ -39,7 +39,7 @@ public class MovieManager {
     }
 
     public void returnMovie(String name) {
-        if (!checkLogin()) return;
+        if (!userLogin.checkLogin()) return;
         List<Movie> movies = MovieLists.getMovieList();
         for (Movie movie : movies) {
             if (movie.getName().equals(name) && movie.checkUserValid(Session.getUser())) {
@@ -52,11 +52,4 @@ public class MovieManager {
         libraryView.showUnsuccessfulReturn("movie");
     }
 
-    private boolean checkLogin() {
-        if (Session.getUser() == null) {
-            libraryView.showLoginTip();
-            return false;
-        }
-        return true;
-    }
 }
