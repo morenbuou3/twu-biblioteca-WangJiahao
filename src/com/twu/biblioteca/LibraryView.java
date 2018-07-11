@@ -62,4 +62,14 @@ public class LibraryView {
     public void showGoodBye() {
         System.out.println("Thank you for coming,welcome your next visit!");
     }
+
+    public void showChooseTip() {
+        System.out.println("Please input your choose:");
+    }
+
+    public void showCheckoutAndReturnTip() {
+        System.out.println("Please input book name:");
+        System.out.println("Or input 'back' to the main menu:");
+    }
+
 }

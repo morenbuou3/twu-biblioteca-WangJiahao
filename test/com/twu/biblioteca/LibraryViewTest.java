@@ -91,4 +91,27 @@ public class LibraryViewTest {
         libraryView.showGoodBye();
         assertThat(outContent.toString(), is(expect));
     }
+
+    @Test
+    public void printChooseTip() {
+        String expect = "Please input your choose:\r\n";
+        libraryView.showChooseTip();
+        assertThat(outContent.toString(), is(expect));
+    }
+
+    @Test
+    public void printCheckoutTip() {
+        String expect = "Please input book name:\r\n"
+                + "Or input 'back' to the main menu:\r\n";
+        libraryView.showCheckoutAndReturnTip();
+        assertThat(outContent.toString(), is(expect));
+    }
+
+    @Test
+    public void printReturnTip() {
+        String expect = "Please input book name:\r\n"
+                + "Or input 'back' to the main menu:\r\n";
+        libraryView.showCheckoutAndReturnTip();
+        assertThat(outContent.toString(), is(expect));
+    }
 }
