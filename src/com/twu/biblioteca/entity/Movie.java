@@ -10,7 +10,7 @@ public class Movie {
     private String movieRate;
     private Integer movieNumber;
 
-    private List<User> user;
+    private List<User> users;
 
     public Movie(String name, String year, String director, String movieRate, Integer movieNumber) {
         this.name = name;
@@ -18,7 +18,7 @@ public class Movie {
         this.director = director;
         this.movieRate = movieRate;
         this.movieNumber = movieNumber;
-        this.user = new ArrayList<>();
+        this.users = new ArrayList<>();
     }
 
     public String getName() {
@@ -62,6 +62,10 @@ public class Movie {
     }
 
     public List<User> getUser() {
-        return user;
+        return users;
+    }
+
+    public Boolean checkUserValid(User user) {
+        return users.stream().anyMatch(n -> n.equals(user));
     }
 }

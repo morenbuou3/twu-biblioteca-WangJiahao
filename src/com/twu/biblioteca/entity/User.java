@@ -65,6 +65,10 @@ public class User {
         return users;
     }
 
+    public Boolean checkUserValid(User user) {
+        return users.stream().anyMatch(n -> n.equals(user));
+    }
+
     @Override
     public int hashCode() {
         return this.libraryNumber.hashCode() + this.password.hashCode();
