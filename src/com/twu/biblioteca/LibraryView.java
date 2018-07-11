@@ -25,7 +25,8 @@ public class LibraryView {
         System.out.println("Return Book(4):");
         System.out.println("Checkout Movie(5):");
         System.out.println("Return Movie(6):");
-        System.out.println("Quit(7):");
+        System.out.println("User Information(7):");
+        System.out.println("Quit(8):");
     }
 
     public void showInvalidOption() {

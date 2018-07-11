@@ -33,7 +33,8 @@ public class LibraryViewTest {
                 + "Return Book(4):\r\n"
                 + "Checkout Movie(5):\r\n"
                 + "Return Movie(6):\r\n"
-                + "Quit(7):\r\n";
+                + "User Information(7):\r\n"
+                + "Quit(8):\r\n";
         libraryView.showMenu();
         assertThat(outContent.toString(), is(expect));
     }

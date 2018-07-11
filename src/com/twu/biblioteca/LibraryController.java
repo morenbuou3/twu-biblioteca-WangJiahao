@@ -32,7 +32,7 @@ public class LibraryController {
 
     public void begin() throws IOException {
         String input = bufferedReader.readLine();
-        while (!"7".equals(input)) {
+        while (!"8".equals(input)) {
             String name = "";
             switch (input) {
                 case "1":
@@ -60,6 +60,9 @@ public class LibraryController {
                     libraryView.showCheckoutAndReturnTip("movie");
                     name = bufferedReader.readLine();
                     movieManager.returnMovie(name);
+                    break;
+                case "7":
+                    userLogin.showUserInformation();
                     break;
                 default:
                     libraryView.showInvalidOption();
